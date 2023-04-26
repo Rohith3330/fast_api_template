@@ -3,4 +3,4 @@ import uvicorn
 app = FastAPI()
 @app.get('/')
 def home():
-    return 'api is active'
+    return 'api is active '
